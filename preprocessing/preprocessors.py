@@ -17,4 +17,7 @@ def data_split(df, start, end):
     
     return data
 
-  
+def calculate_price(df):
+    
+    data = df.copy()
+    data = data[[
